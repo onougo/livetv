@@ -30,6 +30,9 @@ Route::get('create_play', 'PlaylistController@play')->name('create_play');
 // All Playlists
 Route::get('playlist', 'PlaylistController@playlist')->name('playlist');
 
+// Playlist Details Route //
+Route::get('playlist_detail', 'PlaylistController@details')->name('playlist_detail');
+
 // Video Details route //
 Route::get('video_detail', 'VideoController@detail')->name('video_detail');
 
